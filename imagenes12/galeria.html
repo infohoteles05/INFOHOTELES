@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      color: #005f73;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .galeria img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+    a {
+      display: block;
+      margin-top: 50px;
+      text-align: center;
+      background-color: #0a9396;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 30px;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      transition: 0.3s ease;
+    }
+    a:hover {
+      background-color: #005f73;
+    }
+  </style>
+</head>
+<body>
+  <h1>Galería de Ixtapa Zihuatanejo</h1>
+
+  <div class="galeria">
+    <img src="imagenes12/yyy.WEBP" alt="Playa Ixtapa">
+    <img src="imagenes12/hotel-lujo.jpg" alt="Hotel de Lujo">
+    <img src="imagenes12/atardecer.jpg" alt="Atardecer">
+    <img src="imagenes12/aventura.jpg" alt="Turismo de Aventura">
+    <img src="imagenes12/isla.jpg" alt="Isla Ixtapa">
+    <img src="imagenes12/cultura11.jpg" alt="Cultura y tradiciones">
+  </div>
+
+  <a href="index.html">← Volver al inicio</a>
+</body>
+</html>
